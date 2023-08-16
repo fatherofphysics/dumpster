@@ -1,0 +1,12 @@
+Blur background css
+
+background: hsl(0 0% 0% / 0.75);
+backdrop-filter: blur(1rem);
+
+@supports (backdrop-filter: blur(1rem)) {
+  .class{ 
+    background: hsl(0 0% 100% / 0.1);
+    backdrop-filter: blur(1rem);
+
+ }
+}

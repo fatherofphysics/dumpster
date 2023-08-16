@@ -1,0 +1,17 @@
+Image optimized size for wesite
+
+header image - 1024px => 1024*768px upto 200KB
+
+bg image -> 1920*1080 => 16:9, atleast 72ppi
+
+logo -> 250*100px, upto => 320px*70-100px
+if retina option dim double
+
+Global rule : 
+ jpg for everything
+png & svg for logo & illustrations
+for wordpress -> plugin svg support
+
+Image compression tools:
+optimazilla
+tinyJPG

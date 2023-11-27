@@ -9,9 +9,11 @@ if %key% == 1 goto xls
 if %key% == 2 goto csv
 :xls
 copy *.xls merge.xls
-pause
-/nobreak
+pause>nul
+echo press any key to close
+exit
 :csv
 copy *.csv merge.csv
 pause
-/nobreak
+echo press any key to close
+exit

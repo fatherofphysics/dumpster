@@ -10,8 +10,8 @@ if %key% == 2 goto csv
 :xls
 copy *.xls merge.xls
 pause
-exit
+/nobreak
 :csv
 copy *.csv merge.csv
 pause
-exit
+/nobreak

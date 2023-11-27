@@ -14,6 +14,6 @@ echo press any key to close
 exit
 :csv
 copy *.csv merge.csv
-pause
+pause>nul
 echo press any key to close
 exit

@@ -20,7 +20,7 @@ echo press any key to close
 pause>nul
 exit
 :xlsx
-robocopy . merge xlsx
+robocopy . merge *.xlsx
 echo Press any key to close
 pause>nul
 exit
